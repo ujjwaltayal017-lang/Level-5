@@ -15,7 +15,7 @@ app.get("/health", (req, res)=>{
 
 app.get("/", (req, res) => {
     return res.json({
-        message: "Hello Kanha"
+        message: "Hello Kanha v1"
     })
 })
 
